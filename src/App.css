@@ -24,6 +24,40 @@
   color: white;
 }
 
+.Header-menu {
+  width: 90%;
+  height: 60px;
+  background-color: rgb(12, 60, 96);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  margin-top: -34px;
+}
+
+.Logo-text-j {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font: 24px 'Open-Sans', sans-serif;
+  line-height: 2.5;
+}
+
+.Logo-text-d {
+  color: #7DCADA;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font: 24px 'Open-Sans', sans-serif;
+  line-height: 2.5;
+}
+
+a.Header-link {
+  color: #ffffff;
+  text-decoration: none;
+  font: 14px 'Open-Sans', sans-serif;
+  line-height: 4;
+  margin: 10px;
+}
+
 .App-link {
   color: #61dafb;
 }
