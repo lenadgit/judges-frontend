@@ -1,7 +1,9 @@
-import React from 'react';
+import React from "react";
+import Checkbox from "./components/filterpanel/Checkbox";
+import Autocomplete from "./components/filterpanel/Autocomplete";
 //import logo from './logo.svg';
-import logo from './law-justice.jpg';
-import './App.css';
+import logo from "./law-justice.jpg";
+import "./App.css";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
         >
           Learn React
         </a>
+        <Autocomplete />
+        <Checkbox />
       </header>
     </div>
   );
