@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #ffffff;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +31,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0 5%;
-  margin-top: -34px;
+  
 }
 
 .Logo-text-j {
@@ -60,6 +60,38 @@ a.Header-link {
 
 .App-link {
   color: #61dafb;
+}
+
+.MuiTypography-body1 {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.Banner {
+  width: 100%;
+}
+
+.Wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+}
+
+.Block {
+  background-color: rgb(12, 60, 96);
+  width: 20%;
+  padding: 2% 5%;
+}
+
+.Block > h3 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font: 22px 'Open-Sans', sans-serif;
+}
+
+.Block > p {
+  color: #ffffff;
+  font: 18px 'Open-Sans', sans-serif;
 }
 
 @keyframes App-logo-spin {

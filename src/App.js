@@ -1,43 +1,34 @@
 import React from "react";
-import Checkbox from "./components/filterpanel/Checkbox";
-import Autocomplete from "./components/filterpanel/Autocomplete";
-//import logo from './logo.svg';
-import logo from "./law-justice.jpg";
+import JudgesPage from "./components/judgespage/Judgespage";
+import Home from "./components/home/Home";
+
 import "./App.css";
+import {BrowserRouter, Switch, Route, Link} from 'react-router-dom';
 
 function App() {
   return (
+    <BrowserRouter> 
     <div className="App">
-      <header className="App-header">
-      
+      <header className="App-header">      
         <nav className = "Header-menu">
           <div className = "Logo-side">
           <span className = "Logo-text-j">Judges</span>&nbsp;
           <span className = "Logo-text-d">Data</span>
           </div>
           <div className = "Link-side">
-          <a href = "https://google.com" className = "Header-link">Головна</a>
+          <Link to='/home' className = "Header-link">Головна</Link>
           <a href = "https://google.com" className = "Header-link">Про проект</a>
-          <a href = "https://google.com" className = "Header-link">Дані про суддів</a>
+          <Link to='/judgespage' className = "Header-link">Дані про суддів</Link>
           </div>  
-        </nav>
-        
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Autocomplete />
-        <Checkbox />
+        </nav>          
       </header>
-    </div>
+    </div>     
+        <Switch>
+        <Route path="/home" component={Home}></Route>
+        <Route path="/judgespage" component={JudgesPage}></Route>
+        </Switch>
+    </BrowserRouter>      
+    
   );
 }
 
