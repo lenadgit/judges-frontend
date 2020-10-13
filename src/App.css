@@ -94,6 +94,11 @@ a.Header-link {
   font: 18px 'Open-Sans', sans-serif;
 }
 
+.judges-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

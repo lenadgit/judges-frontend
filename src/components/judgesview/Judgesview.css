@@ -1,0 +1,7 @@
+.result-wrapper {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    margin-right: 300px;
+    font-size: 40px;
+}
