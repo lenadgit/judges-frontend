@@ -1,10 +1,10 @@
 {
   "judge": [
-    { "title": "Ковчежнюк В. М." },
-    { "title": "Кравець В. І." },
-    { "title": "Дєдов С. М." },
-    { "title": "Швидкий О. В." },
-    { "title": "Бондар О. В." },
-    { "title": "Калуш І.С." }
+    { "title": "Ковчежнюк В. М.", "status": "fired" },
+    { "title": "Кравець В. І.", "status": "reprimand" },
+    { "title": "Дєдов С. М.", "status": "fired" },
+    { "title": "Швидкий О. В.", "status": "reprimand" },
+    { "title": "Бондар О. В.", "status": "reprimand" },
+    { "title": "Калуш І.С.", "status": "reprimand" }
   ]
 }
