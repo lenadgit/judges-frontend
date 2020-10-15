@@ -6,7 +6,8 @@ export default function SearchField(props) {
 
     return (
         <SearchBar
-          onChange={(newValue) => this.setState({ value: newValue })}          
+          onChange={(newValue) => this.setState({ value: newValue })} 
+          name = "searchname"         
         />
       );
     }

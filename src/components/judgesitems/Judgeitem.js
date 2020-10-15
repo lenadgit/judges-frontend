@@ -3,6 +3,7 @@ import { useState } from 'react';
 import judge from "../../components/content-data/judge.json";
 
 export default function JudgeItem(props) {
+    
     return(
     <div className = "">
     <ul>

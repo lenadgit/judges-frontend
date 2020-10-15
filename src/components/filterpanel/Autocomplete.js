@@ -25,7 +25,7 @@ export default function ComboBox() {
         getOptionLabel={(option) => option.title}
         style={{ width: 300 }}
         renderInput={(params) => (
-          <TextField {...params} label="Область" variant="outlined" />
+          <TextField {...params} label="Область" variant="outlined" name = "region" />
         )}
       />
 
@@ -36,7 +36,7 @@ export default function ComboBox() {
         getOptionLabel={(option) => option.title}
         style={{ width: 300 }}
         renderInput={(params) => (
-          <TextField {...params} label="Район" variant="outlined" />
+          <TextField {...params} label="Район" variant="outlined" name = "district" />
         )}
       />
 
@@ -47,7 +47,7 @@ export default function ComboBox() {
         getOptionLabel={(option) => option.title}
         style={{ width: 300 }}
         renderInput={(params) => (
-          <TextField {...params} label="Місто" variant="outlined" />
+          <TextField {...params} label="Місто" variant="outlined" name = "city" />
         )}
       />
 
@@ -58,7 +58,7 @@ export default function ComboBox() {
         getOptionLabel={(option) => option.title}
         style={{ width: 300 }}
         renderInput={(params) => (
-          <TextField {...params} label="Суддя" variant="outlined" />
+          <TextField {...params} label="Суддя" variant="outlined" name = "judge" />
         )}
       />
     </div>

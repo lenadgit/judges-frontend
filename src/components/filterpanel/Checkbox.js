@@ -31,7 +31,7 @@ export default function CheckboxLabels() {
           <Checkbox
             checked={state.checkedA}
             onChange={handleChange}
-            name="checkedA"
+            name="isReprimand"
             color="primary"
           />
         }
@@ -42,7 +42,7 @@ export default function CheckboxLabels() {
           <Checkbox
             checked={state.checkedB}
             onChange={handleChange}
-            name="checkedB"
+            name="isFired"
             color="primary"
           />
         }
