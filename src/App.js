@@ -16,7 +16,7 @@ function App() {
           <span className = "Logo-text-d">Data</span>
           </div>
           <div className = "Link-side">
-          <Link to='/home' className = "Header-link">Головна</Link>
+          <Link to='/' className = "Header-link">Головна</Link>
           <a href = "https://google.com" className = "Header-link">Про проект</a>
           <Link to='/judgespage' className = "Header-link">Дані про суддів</Link>
           </div>  
@@ -24,8 +24,8 @@ function App() {
       </header>
     </div>     
         <Switch>
-        <Route path="/home" component={Home}></Route>
-        <Route path="/judgespage" component={JudgesPage}></Route>
+          <Route exact path="/" component={Home}></Route>
+          <Route path="/judgespage" component={JudgesPage}></Route>
         </Switch>
     </BrowserRouter>      
     
